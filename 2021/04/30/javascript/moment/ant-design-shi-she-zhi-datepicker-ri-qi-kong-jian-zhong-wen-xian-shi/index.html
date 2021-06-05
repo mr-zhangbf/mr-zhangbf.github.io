@@ -22,18 +22,18 @@
 <meta name="keywords" content="moment js vue">
 <meta property="og:type" content="article">
 <meta property="og:title" content="ant-design时设置DatePicker日期控件中文显示">
-<meta property="og:url" content="http://mr-zhangbf.io/2021/04/30/javascript/moment/ant-design-shi-she-zhi-datepicker-ri-qi-kong-jian-zhong-wen-xian-shi/index.html">
+<meta property="og:url" content="http://mr-zhangbf.github.io/2021/04/30/javascript/moment/ant-design-shi-she-zhi-datepicker-ri-qi-kong-jian-zhong-wen-xian-shi/index.html">
 <meta property="og:site_name" content="张本富的博客">
 <meta property="og:description" content="方式一：在组件中单独设置     import locale from &apos;antd/lib/date-picker/locale/zh_CN&apos;;    &amp;lt;DatePicker locale={locale} /&amp;gt;; 方法二：全局设置    注意：DatePicker、MonthPicker、RangePicker、WeekPicker 部分 locale 是从 value 中读取，所">
 <meta property="og:locale" content="zh-CN">
-<meta property="og:image" content="http://mr-zhangbf.io/2021/04/30/javascript/moment/ant-design-shi-she-zhi-datepicker-ri-qi-kong-jian-zhong-wen-xian-shi/1.jpg">
+<meta property="og:image" content="http://mr-zhangbf.github.io/2021/04/30/javascript/moment/ant-design-shi-she-zhi-datepicker-ri-qi-kong-jian-zhong-wen-xian-shi/1.jpg">
 <meta property="og:updated_time" content="2021-06-05T08:57:38.708Z">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:title" content="ant-design时设置DatePicker日期控件中文显示">
 <meta name="twitter:description" content="方式一：在组件中单独设置     import locale from &apos;antd/lib/date-picker/locale/zh_CN&apos;;    &amp;lt;DatePicker locale={locale} /&amp;gt;; 方法二：全局设置    注意：DatePicker、MonthPicker、RangePicker、WeekPicker 部分 locale 是从 value 中读取，所">
-<meta name="twitter:image" content="http://mr-zhangbf.io/2021/04/30/javascript/moment/ant-design-shi-she-zhi-datepicker-ri-qi-kong-jian-zhong-wen-xian-shi/1.jpg">
+<meta name="twitter:image" content="http://mr-zhangbf.github.io/2021/04/30/javascript/moment/ant-design-shi-she-zhi-datepicker-ri-qi-kong-jian-zhong-wen-xian-shi/1.jpg">
   <!-- Canonical links -->
-  <link rel="canonical" href="http://mr-zhangbf.io/2021/04/30/javascript/moment/ant-design-shi-she-zhi-datepicker-ri-qi-kong-jian-zhong-wen-xian-shi/index.html">
+  <link rel="canonical" href="http://mr-zhangbf.github.io/2021/04/30/javascript/moment/ant-design-shi-she-zhi-datepicker-ri-qi-kong-jian-zhong-wen-xian-shi/index.html">
   
     <link rel="alternate" href="/atom.xml" title="张本富的博客" type="application/atom+xml">
   
@@ -302,10 +302,10 @@
             
             <div class="item-inner">
               <p class="item-category">
-                <a class="category-link" href="/categories/个人/">个人</a>
+                <a class="category-link" href="/categories/技术/">技术</a>
               </p>
               <p class="item-title">
-                <a href="/2021/04/30/javascript/moment/ant-design-shi-she-zhi-datepicker-ri-qi-kong-jian-zhong-wen-xian-shi/" class="title">ant-design时设置DatePicker日期控件中文显示</a>
+                <a href="/2021/04/30/vue/vuex/ce-shi-fen-lei/" class="title">测试分类1</a>
               </p>
               <p class="item-date">
                 <time datetime="2021-04-30T05:54:42.000Z" itemprop="datePublished">2021-04-30</time>
@@ -317,10 +317,10 @@
             
             <div class="item-inner">
               <p class="item-category">
-                <a class="category-link" href="/categories/技术/">技术</a>
+                <a class="category-link" href="/categories/个人/">个人</a>
               </p>
               <p class="item-title">
-                <a href="/2021/04/30/vue/vuex/ce-shi-fen-lei/" class="title">测试分类1</a>
+                <a href="/2021/04/30/javascript/moment/ant-design-shi-she-zhi-datepicker-ri-qi-kong-jian-zhong-wen-xian-shi/" class="title">ant-design时设置DatePicker日期控件中文显示</a>
               </p>
               <p class="item-date">
                 <time datetime="2021-04-30T05:54:42.000Z" itemprop="datePublished">2021-04-30</time>
@@ -403,7 +403,7 @@
   import 'moment/locale/zh-cn';
   moment.locale('zh-cn');
 
-  &lt;DatePicker defaultValue={moment('2015-01-01', 'YYYY-MM-DD')} /&gt;;</code></pre><h1 id="遇到的问题"><a href="#遇到的问题" class="headerlink" title="遇到的问题"></a>遇到的问题</h1><p>以前使用这种方法没有问题，但是最近这样配置的时候出现月和周不能显示中文<br><img src="//mr-zhangbf.io/2021/04/30/javascript/moment/ant-design-shi-she-zhi-datepicker-ri-qi-kong-jian-zhong-wen-xian-shi/1.jpg" alt=""></p>
+  &lt;DatePicker defaultValue={moment('2015-01-01', 'YYYY-MM-DD')} /&gt;;</code></pre><h1 id="遇到的问题"><a href="#遇到的问题" class="headerlink" title="遇到的问题"></a>遇到的问题</h1><p>以前使用这种方法没有问题，但是最近这样配置的时候出现月和周不能显示中文<br><img src="//mr-zhangbf.github.io/2021/04/30/javascript/moment/ant-design-shi-she-zhi-datepicker-ri-qi-kong-jian-zhong-wen-xian-shi/1.jpg" alt=""></p>
 </li>
 <li><p>现在的方法  </p>
 <ul>
@@ -562,7 +562,7 @@ Vue.use(globals);</code></pre></li>
     
     <li class="post-copyright-link hidden-xs">
       <strong>本文链接：</strong>
-      <a href="http://mr-zhangbf.io/2021/04/30/javascript/moment/ant-design-shi-she-zhi-datepicker-ri-qi-kong-jian-zhong-wen-xian-shi/" title="ant-design时设置DatePicker日期控件中文显示" target="_blank" rel="external">http://mr-zhangbf.io/2021/04/30/javascript/moment/ant-design-shi-she-zhi-datepicker-ri-qi-kong-jian-zhong-wen-xian-shi/</a>
+      <a href="http://mr-zhangbf.github.io/2021/04/30/javascript/moment/ant-design-shi-she-zhi-datepicker-ri-qi-kong-jian-zhong-wen-xian-shi/" title="ant-design时设置DatePicker日期控件中文显示" target="_blank" rel="external">http://mr-zhangbf.github.io/2021/04/30/javascript/moment/ant-design-shi-she-zhi-datepicker-ri-qi-kong-jian-zhong-wen-xian-shi/</a>
     </li>
     
     <li class="post-copyright-license">
@@ -609,13 +609,9 @@ Vue.use(globals);</code></pre></li>
   <ul class="pager pull-left">
     
     <li class="prev">
-      <a href="/2021/05/06/node/node-shi-yong-import-bao-cuo-wen-ti/" title="node项目使用import报错问题"><i class="icon icon-angle-left" aria-hidden="true"></i><span>&nbsp;&nbsp;上一篇</span></a>
+      <a href="/2021/04/30/vue/vuex/ce-shi-fen-lei/" title="测试分类1"><i class="icon icon-angle-left" aria-hidden="true"></i><span>&nbsp;&nbsp;上一篇</span></a>
     </li>
     
-    
-    <li class="next">
-      <a href="/2021/04/30/vue/vuex/ce-shi-fen-lei/" title="测试分类1"><span>下一篇&nbsp;&nbsp;</span><i class="icon icon-angle-right" aria-hidden="true"></i></a>
-    </li>
     
     
     <li class="toggle-toc">
