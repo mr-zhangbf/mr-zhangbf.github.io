@@ -17,11 +17,11 @@
     
     
     <entry>
-      <title>git日常操作记录</title>
-      <link href="2021/06/05/git/git-ji-lu/"/>
-      <url>2021/06/05/git/git-ji-lu/</url>
+      <title>node项目使用import报错问题</title>
+      <link href="2021/05/06/node/node-shi-yong-import-bao-cuo-wen-ti/"/>
+      <url>2021/05/06/node/node-shi-yong-import-bao-cuo-wen-ti/</url>
       
-        <content type="html"><![CDATA[<h3 id="git-日常操作记录"><a href="#git-日常操作记录" class="headerlink" title="git 日常操作记录"></a>git 日常操作记录</h3><p> webpack5+url-loader打包图片不能显示<br><img src="/.io//1.jpg" alt=""></p><p><img src="/.io//2.jpg" alt=""></p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+        <content type="html"><![CDATA[<h1 id="在express框架中运用import-export"><a href="#在express框架中运用import-export" class="headerlink" title="在express框架中运用import export"></a>在express框架中运用import export</h1><blockquote><p>在新搭建的基于node.js的express框架时，不能直接运用import/export，否则会报错如下  </p></blockquote><p><img src="/.io//1.png" alt=""><br><img src="/.io//2.png" alt=""> </p><p>所以需要在入口文件里面导入babel依赖<br>1* yarn add babel-register babel-preset-env –save-dev<br>2* 在./bin/www文件的第一行添加如下代码  </p><pre><code>require('babel-register')({  presets: ['env']});</code></pre><p>3* npm start启动项目，已可以正常运行了  </p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
       
       
       <categories>
@@ -33,7 +33,7 @@
       
         <tags>
             
-            <tag> git </tag>
+            <tag> vuex </tag>
             
         </tags>
       
@@ -42,11 +42,11 @@
     
     
     <entry>
-      <title>node项目使用import报错问题</title>
-      <link href="2021/05/06/node/node-shi-yong-import-bao-cuo-wen-ti/"/>
-      <url>2021/05/06/node/node-shi-yong-import-bao-cuo-wen-ti/</url>
+      <title>测试分类1</title>
+      <link href="2021/04/30/vue/vuex/ce-shi-fen-lei/"/>
+      <url>2021/04/30/vue/vuex/ce-shi-fen-lei/</url>
       
-        <content type="html"><![CDATA[<h1 id="在express框架中运用import-export"><a href="#在express框架中运用import-export" class="headerlink" title="在express框架中运用import export"></a>在express框架中运用import export</h1><blockquote><p>在新搭建的基于node.js的express框架时，不能直接运用import/export，否则会报错如下  </p></blockquote><p><img src="/.io//1.png" alt=""><br><img src="/.io//2.png" alt=""> </p><p>所以需要在入口文件里面导入babel依赖<br>1* yarn add babel-register babel-preset-env –save-dev<br>2* 在./bin/www文件的第一行添加如下代码  </p><pre><code>require('babel-register')({  presets: ['env']});</code></pre><p>3* npm start启动项目，已可以正常运行了  </p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+        <content type="html"><![CDATA[<h1 id="测试分类1"><a href="#测试分类1" class="headerlink" title="测试分类1"></a>测试分类1</h1><blockquote><p>分类是否正常<br><img src="/.io//2.jpg" alt=""></p></blockquote><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
       
       
       <categories>
@@ -84,31 +84,6 @@
         <tags>
             
             <tag> moment js vue </tag>
-            
-        </tags>
-      
-    </entry>
-    
-    
-    
-    <entry>
-      <title>测试分类1</title>
-      <link href="2021/04/30/vue/vuex/ce-shi-fen-lei/"/>
-      <url>2021/04/30/vue/vuex/ce-shi-fen-lei/</url>
-      
-        <content type="html"><![CDATA[<h1 id="测试分类1"><a href="#测试分类1" class="headerlink" title="测试分类1"></a>测试分类1</h1><blockquote><p>分类是否正常<br><img src="/.io//2.jpg" alt=""></p></blockquote><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
-      
-      
-      <categories>
-          
-          <category> 技术 </category>
-          
-      </categories>
-      
-      
-        <tags>
-            
-            <tag> vuex </tag>
             
         </tags>
       

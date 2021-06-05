@@ -2,13 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://mr-zhangbf.github.io/2021/06/05/git/git-ji-lu/</loc>
-    
-    <lastmod>2021-06-05T14:37:46.700Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://mr-zhangbf.github.io/2021/06/05/test/</loc>
     
     <lastmod>2021-06-05T10:10:08.616Z</lastmod>
@@ -65,14 +58,14 @@
   </url>
   
   <url>
-    <loc>http://mr-zhangbf.github.io/friends/index.html</loc>
+    <loc>http://mr-zhangbf.github.io/contact/index.html</loc>
     
     <lastmod>2021-04-24T01:07:37.301Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://mr-zhangbf.github.io/contact/index.html</loc>
+    <loc>http://mr-zhangbf.github.io/friends/index.html</loc>
     
     <lastmod>2021-04-24T01:07:37.301Z</lastmod>
     

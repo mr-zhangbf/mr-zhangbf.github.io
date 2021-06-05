@@ -43,32 +43,6 @@
   </entry>
   
   <entry>
-    <title>git日常操作记录</title>
-    <link href="http://mr-zhangbf.github.io/2021/06/05/git/git-ji-lu/"/>
-    <id>http://mr-zhangbf.github.io/2021/06/05/git/git-ji-lu/</id>
-    <published>2021-06-05T08:59:20.000Z</published>
-    <updated>2021-06-05T14:37:46.700Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h3 id=&quot;git-日常操作记录&quot;&gt;&lt;a href=&quot;#git-日常操作记录&quot; class=&quot;headerlink&quot; title=&quot;git 日常操作记录&quot;&gt;&lt;/a&gt;git 日常操作记录&lt;/h3&gt;&lt;p&gt; webpack5+url-loader打包图片不能显示&lt;br&gt;&lt;img
-        
-      
-    
-    </summary>
-    
-      <category term="技术" scheme="http://mr-zhangbf.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
-    
-    
-      <category term="git" scheme="http://mr-zhangbf.github.io/tags/git/"/>
-    
-  </entry>
-  
-  <entry>
     <title>node项目使用import报错问题</title>
     <link href="http://mr-zhangbf.github.io/2021/05/06/node/node-shi-yong-import-bao-cuo-wen-ti/"/>
     <id>http://mr-zhangbf.github.io/2021/05/06/node/node-shi-yong-import-bao-cuo-wen-ti/</id>
@@ -82,6 +56,33 @@
         
         
           &lt;h1 id=&quot;在express框架中运用import-export&quot;&gt;&lt;a href=&quot;#在express框架中运用import-export&quot; class=&quot;headerlink&quot; title=&quot;在express框架中运用import
+        
+      
+    
+    </summary>
+    
+      <category term="技术" scheme="http://mr-zhangbf.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
+    
+    
+      <category term="vuex" scheme="http://mr-zhangbf.github.io/tags/vuex/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>测试分类1</title>
+    <link href="http://mr-zhangbf.github.io/2021/04/30/vue/vuex/ce-shi-fen-lei/"/>
+    <id>http://mr-zhangbf.github.io/2021/04/30/vue/vuex/ce-shi-fen-lei/</id>
+    <published>2021-04-30T05:54:42.000Z</published>
+    <updated>2021-06-05T08:57:38.718Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;测试分类1&quot;&gt;&lt;a href=&quot;#测试分类1&quot; class=&quot;headerlink&quot; title=&quot;测试分类1&quot;&gt;&lt;/a&gt;测试分类1&lt;/h1&gt;&lt;blockquote&gt;
+&lt;p&gt;分类是否正常&lt;br&gt;&lt;img src=&quot;/.io//2.jpg&quot;
         
       
     
@@ -120,33 +121,6 @@
     
     
       <category term="moment js vue" scheme="http://mr-zhangbf.github.io/tags/moment-js-vue/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>测试分类1</title>
-    <link href="http://mr-zhangbf.github.io/2021/04/30/vue/vuex/ce-shi-fen-lei/"/>
-    <id>http://mr-zhangbf.github.io/2021/04/30/vue/vuex/ce-shi-fen-lei/</id>
-    <published>2021-04-30T05:54:42.000Z</published>
-    <updated>2021-06-05T08:57:38.718Z</updated>
-    
-    <summary type="html">
-    
-      
-      
-        
-        
-          &lt;h1 id=&quot;测试分类1&quot;&gt;&lt;a href=&quot;#测试分类1&quot; class=&quot;headerlink&quot; title=&quot;测试分类1&quot;&gt;&lt;/a&gt;测试分类1&lt;/h1&gt;&lt;blockquote&gt;
-&lt;p&gt;分类是否正常&lt;br&gt;&lt;img src=&quot;/.io//2.jpg&quot;
-        
-      
-    
-    </summary>
-    
-      <category term="技术" scheme="http://mr-zhangbf.github.io/categories/%E6%8A%80%E6%9C%AF/"/>
-    
-    
-      <category term="vuex" scheme="http://mr-zhangbf.github.io/tags/vuex/"/>
     
   </entry>
   
