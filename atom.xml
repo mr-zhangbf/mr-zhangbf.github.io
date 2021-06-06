@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://mr-zhangbf.github.io/"/>
-  <updated>2021-06-06T00:28:59.004Z</updated>
+  <updated>2021-06-06T13:31:58.020Z</updated>
   <id>http://mr-zhangbf.github.io/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>git记录</title>
-    <link href="http://mr-zhangbf.github.io/2021/06/06/git-ji-lu/"/>
-    <id>http://mr-zhangbf.github.io/2021/06/06/git-ji-lu/</id>
-    <published>2021-06-06T00:28:05.000Z</published>
-    <updated>2021-06-06T00:28:59.004Z</updated>
+    <title></title>
+    <link href="http://mr-zhangbf.github.io/2021/06/06/webpack/chang-jian-wen-ti/webpack5-webpack-dev-server-jian-rong/"/>
+    <id>http://mr-zhangbf.github.io/2021/06/06/webpack/chang-jian-wen-ti/webpack5-webpack-dev-server-jian-rong/</id>
+    <published>2021-06-06T13:19:11.560Z</published>
+    <updated>2021-06-06T13:31:58.020Z</updated>
     
     <summary type="html">
     
@@ -29,10 +29,8 @@
       
         
         
-          &lt;p&gt;&lt;img src=&quot;/2021/06/06/git-ji-lu/1.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;script&gt;
-        document.querySelectorAll(&#39;.github-emoji&#39;)
-          .forEach(el =&gt;
+          &lt;hr&gt;
+&lt;p&gt;title: webpack5+webpack-dev-server兼容&lt;br&gt;author: 本富&lt;br&gt;top: false&lt;br&gt;cover: false&lt;br&gt;toc: true&lt;br&gt;mathjax: false&lt;br&gt;date: 2021-06-06
         
       
     
@@ -42,11 +40,11 @@
   </entry>
   
   <entry>
-    <title>test</title>
-    <link href="http://mr-zhangbf.github.io/2021/06/05/test/"/>
-    <id>http://mr-zhangbf.github.io/2021/06/05/test/</id>
-    <published>2021-06-05T10:10:08.000Z</published>
-    <updated>2021-06-05T10:10:08.616Z</updated>
+    <title></title>
+    <link href="http://mr-zhangbf.github.io/2021/06/06/webpack/chang-jian-wen-ti/url-loader-html-loader-chu-li-tu-pian-bu-neng-zheng-chang-da-kai/"/>
+    <id>http://mr-zhangbf.github.io/2021/06/06/webpack/chang-jian-wen-ti/url-loader-html-loader-chu-li-tu-pian-bu-neng-zheng-chang-da-kai/</id>
+    <published>2021-06-06T00:56:33.568Z</published>
+    <updated>2021-06-06T01:14:44.506Z</updated>
     
     <summary type="html">
     
@@ -54,11 +52,8 @@
       
         
         
-          &lt;script&gt;
-        document.querySelectorAll(&#39;.github-emoji&#39;)
-          .forEach(el =&gt; {
-            if (!el.dataset.src) { return; }
-       
+          &lt;hr&gt;
+&lt;p&gt;title: url-loader+html-loader处理图片不能正常打开&lt;br&gt;author: 本富&lt;br&gt;top: false&lt;br&gt;cover: false&lt;br&gt;toc: true&lt;br&gt;mathjax: false&lt;br&gt;date:
         
       
     
@@ -72,7 +67,7 @@
     <link href="http://mr-zhangbf.github.io/2021/05/06/node/node-shi-yong-import-bao-cuo-wen-ti/"/>
     <id>http://mr-zhangbf.github.io/2021/05/06/node/node-shi-yong-import-bao-cuo-wen-ti/</id>
     <published>2021-05-06T01:38:30.000Z</published>
-    <updated>2021-06-05T08:57:38.711Z</updated>
+    <updated>2021-06-06T00:37:51.223Z</updated>
     
     <summary type="html">
     
