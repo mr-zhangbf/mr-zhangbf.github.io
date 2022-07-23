@@ -17,20 +17,21 @@
   <meta http-equiv="window-target" content="_top">
   
   
-  <title>分类: git | 张本富个人博客记录</title>
-  <meta name="description" content="北京应用技术大学/海南职业技术学院 | 电子商务 | 视觉传达设计">
+  <title>升级hexo和nodejs导致hexo命名报错问题 | 张本富个人博客记录</title>
+  <meta name="description" content="迁移Hexo到Node.js 14 解决部署时报错 概述  升级nodejs之后执行原来的hexo d发布到git上结构报错   环境  Node.js 14.17.4, Hexo-cli 4.3.0, Hexo 5.4.0   报错内容 1The &quot;mode&quot; argument must be integer. Received an instance of Object    1WARN  D">
 <meta name="keywords" content="UESTC CV DeepLearning MachineLearning 本富 sunhw Hongwei 视觉传达设计 深度学习">
-<meta property="og:type" content="website">
-<meta property="og:title" content="张本富的博客">
-<meta property="og:url" content="http://mr-zhangbf.github.io/categories/git/index.html">
+<meta property="og:type" content="article">
+<meta property="og:title" content="升级hexo和nodejs导致hexo命名报错问题">
+<meta property="og:url" content="http://mr-zhangbf.github.io/2022/07/23/hexo/hexo-zhong-node-ban-ben-wen-ti/index.html">
 <meta property="og:site_name" content="张本富的博客">
-<meta property="og:description" content="北京应用技术大学/海南职业技术学院 | 电子商务 | 视觉传达设计">
+<meta property="og:description" content="迁移Hexo到Node.js 14 解决部署时报错 概述  升级nodejs之后执行原来的hexo d发布到git上结构报错   环境  Node.js 14.17.4, Hexo-cli 4.3.0, Hexo 5.4.0   报错内容 1The &quot;mode&quot; argument must be integer. Received an instance of Object    1WARN  D">
 <meta property="og:locale" content="zh-CN">
+<meta property="og:updated_time" content="2022-07-23T03:21:44.801Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="张本富的博客">
-<meta name="twitter:description" content="北京应用技术大学/海南职业技术学院 | 电子商务 | 视觉传达设计">
+<meta name="twitter:title" content="升级hexo和nodejs导致hexo命名报错问题">
+<meta name="twitter:description" content="迁移Hexo到Node.js 14 解决部署时报错 概述  升级nodejs之后执行原来的hexo d发布到git上结构报错   环境  Node.js 14.17.4, Hexo-cli 4.3.0, Hexo 5.4.0   报错内容 1The &quot;mode&quot; argument must be integer. Received an instance of Object    1WARN  D">
   <!-- Canonical links -->
-  <link rel="canonical" href="http://mr-zhangbf.github.io/categories/git/index.html">
+  <link rel="canonical" href="http://mr-zhangbf.github.io/2022/07/23/hexo/hexo-zhong-node-ban-ben-wen-ti/index.html">
   
     <link rel="alternate" href="/atom.xml" title="张本富的博客" type="application/atom+xml">
   
@@ -335,61 +336,222 @@
 </aside>
 
   
-  <main class="main" role="main">
-  <article class="content article article-categories article-type-list" itemscope="">
-    <header class="article-header">
-      <h1 itemprop="name" class="hidden-xs">分类: git</h1>
-      <p class="hidden-xs">共 1 篇文章</p>
-      <nav role="navigation" id="nav-main" class="okayNav">
-        <ul>
-          <li><a href="/categories">All</a></li>
-          
-          <li><a href="/categories/技术/">技术</a></li>
-          
-          <li><a href="/categories/个人/">个人</a></li>
-          
-          <li><a href="/categories/react/">react</a></li>
-          
-          <li><a href="/categories/vue/">vue</a></li>
-          
-          <li><a href="/categories/问题锦集/">问题锦集</a></li>
-          
-          <li><a href="/categories/git/">git</a></li>
-          
-        </ul>
-      </nav>
-    </header>
-    <!-- /header -->
-    <div class="article-body">
-      <div class="panel panel-default b-no">
-    <div class="panel-heading" role="tab">
-        <h4 class="panel-title">
-            <a data-toggle="collapse" href="#collapsegit" aria-expanded="true">
-              <i class="icon icon-folder text-active"></i><i class="icon icon-folder-open text"></i>
-              git
-            </a>
-            <small class="text-muted">(Total 1 articles)</small>
-        </h4>
+  
+<aside class="sidebar sidebar-toc collapse" id="collapseToc" itemscope itemtype="http://schema.org/WPSideBar">
+  <div class="slimContent">
+    <nav id="toc" class="article-toc">
+      <h3 class="toc-title">文章目录</h3>
+      <ol class="toc"><li class="toc-item toc-level-3"><a class="toc-link" href="#迁移Hexo到Node-js-14-解决部署时报错"><span class="toc-number">1.</span> <span class="toc-text">迁移Hexo到Node.js 14 解决部署时报错</span></a></li></ol>
+    </nav>
+  </div>
+</aside>
+
+<main class="main" role="main">
+  <div class="content">
+  <article id="post-hexo/hexo中node版本问题" class="article article-type-post" itemscope itemtype="http://schema.org/BlogPosting">
+    
+    <div class="article-header">
+      
+        
+  
+    <h1 class="article-title" itemprop="name">
+      升级hexo和nodejs导致hexo命名报错问题
+    </h1>
+  
+
+      
+      <div class="article-meta">
+        <span class="article-date">
+    <i class="icon icon-calendar-check"></i>
+	<a href="/2022/07/23/hexo/hexo-zhong-node-ban-ben-wen-ti/" class="article-date">
+	  <time datetime="2022-07-23T03:17:00.000Z" itemprop="datePublished">2022-07-23</time>
+	</a>
+</span>
+        
+        
+
+        
+
+        <span class="post-comment"><i class="icon icon-comment"></i> <a href="/2022/07/23/hexo/hexo-zhong-node-ban-ben-wen-ti/#comments" class="article-comment-link">评论</a></span>
+        
+      </div>
     </div>
-    <div id="collapsegit" class="panel-collapse collapse in" role="tabpanel" aria-labelledby="headinggit">
-        <div class="panel-body">
-            <div class="collection">
-              
-                
-<a href="/2022/07/23/git/chang-jian-wen-ti/pei-zhi-xiang-guan/sshkey/" class="collection-item" target="_blank" itemprop="url">
-  <time datetime="2022-07-23T01:01:34.000Z" itemprop="datePublished">2022-07-23</time>
-  <span>&nbsp;&nbsp;&nbsp;</span> 解决GitHub报错You‘re using an RSA key with SHA-1, which is no longer allowed.Please use a newer client
-</a>
+    <div class="article-entry marked-body" itemprop="articleBody">
+      
+        <h3 id="迁移Hexo到Node-js-14-解决部署时报错"><a href="#迁移Hexo到Node-js-14-解决部署时报错" class="headerlink" title="迁移Hexo到Node.js 14 解决部署时报错"></a>迁移Hexo到Node.js 14 解决部署时报错</h3><ul>
+<li><p>概述</p>
+<blockquote>
+<p>升级nodejs之后执行原来的hexo d发布到git上结构报错</p>
+</blockquote>
+</li>
+<li><p>环境</p>
+<blockquote>
+<p>Node.js 14.17.4, Hexo-cli 4.3.0, Hexo 5.4.0</p>
+</blockquote>
+</li>
+<li><p>报错内容</p>
+<figure class="highlight routeros"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">The <span class="string">"mode"</span> argument must be integer. Received an<span class="built_in"> instance </span>of Object</span><br></pre></td></tr></tbody></table></figure>
+
+</li>
+</ul>
+<figure class="highlight d"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">WARN  Deprecated config detected: <span class="string">"external_link"</span> <span class="keyword">with</span> a Boolean value <span class="keyword">is</span> <span class="keyword">deprecated</span>. See https:<span class="comment">//hexo.io/docs/configuration for more details.</span></span><br></pre></td></tr></tbody></table></figure>
+
+<ul>
+<li>解决<blockquote>
+<p>降低node版本到12.17.0（缺点不够优雅，有的项目需要另外的版本）<br>使用nvm管理node不同版本</p>
+</blockquote>
+</li>
+</ul>
+<script>
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return; }
+            const img = document.createElement('img');
+            img.style = 'display:none !important;';
+            img.src = el.dataset.src;
+            img.addEventListener('error', () => {
+              img.remove();
+              el.style.color = 'inherit';
+              el.style.backgroundImage = 'none';
+              el.style.background = 'none';
+            });
+            img.addEventListener('load', () => {
+              img.remove();
+            });
+            document.body.appendChild(img);
+          });
+      </script>
+      
+    </div>
+    <div class="article-footer">
+      <blockquote class="mt-2x">
+  <ul class="post-copyright list-unstyled">
+    
+    <li class="post-copyright-link hidden-xs">
+      <strong>本文链接：</strong>
+      <a href="http://mr-zhangbf.github.io/2022/07/23/hexo/hexo-zhong-node-ban-ben-wen-ti/" title="升级hexo和nodejs导致hexo命名报错问题" target="_blank" rel="external">http://mr-zhangbf.github.io/2022/07/23/hexo/hexo-zhong-node-ban-ben-wen-ti/</a>
+    </li>
+    
+    <li class="post-copyright-license">
+      <strong>版权声明： </strong> 本博客所有文章除特别声明外，均采用 <a href="http://creativecommons.org/licenses/by/4.0/deed.zh" target="_blank" rel="external">CC BY 4.0 CN协议</a> 许可协议。转载请注明出处！
+    </li>
+  </ul>
+</blockquote>
 
 
-              
-            </div>
-        </div>
-    </div>
+<div class="panel panel-default panel-badger">
+  <div class="panel-body">
+    <figure class="media">
+      <div class="media-left">
+        <a href="https://github.com/mr-zhangbf" target="_blank" class="img-burn thumb-sm visible-lg">
+          <img src="/images/avatar.jpg" class="img-rounded w-full" alt="">
+        </a>
+      </div>
+      <div class="media-body">
+        <h3 class="media-heading"><a href="https://github.com/mr-zhangbf" target="_blank"><span class="text-dark">admin~</span><small class="ml-1x">前端开发</small></a></h3>
+        <div>一名钱端攻城狮。打造一款成功的产品离不开持之以恒的照料，能成为你的搭档创造出别具一格的作品，我倍感荣幸。</div>
+      </div>
+    </figure>
+  </div>
 </div>
+
+
     </div>
   </article>
-   
+  
+    
+  <section id="comments">
+  	
+      <div id="vcomments"></div>
+    
+  </section>
+
+
+  
+</div>
+
+  <nav class="bar bar-footer clearfix" data-stick-bottom>
+  <div class="bar-inner">
+  
+  <ul class="pager pull-left">
+    
+    
+    <li class="next">
+      <a href="/2022/07/23/git/chang-jian-wen-ti/pei-zhi-xiang-guan/sshkey/" title="解决GitHub报错You‘re using an RSA key with SHA-1, which is no longer allowed.Please use a newer client"><span>下一篇&nbsp;&nbsp;</span><i class="icon icon-angle-right" aria-hidden="true"></i></a>
+    </li>
+    
+    
+    <li class="toggle-toc">
+      <a class="toggle-btn collapsed" data-toggle="collapse" href="#collapseToc" aria-expanded="false" title="文章目录" role="button">
+        <span>[&nbsp;</span><span>文章目录</span>
+        <i class="text-collapsed icon icon-anchor"></i>
+        <i class="text-in icon icon-close"></i>
+        <span>]</span>
+      </a>
+    </li>
+    
+  </ul>
+  
+  
+  <!-- Button trigger modal -->
+  <button type="button" class="btn btn-fancy btn-donate pop-onhover bg-gradient-warning" data-toggle="modal" data-target="#donateModal"><span>赏</span></button>
+  <!-- <div class="wave-icon wave-icon-danger btn-donate" data-toggle="modal" data-target="#donateModal">
+    <div class="wave-circle"><span class="icon"><i class="icon icon-bill"></i></span></div>
+  </div> -->
+  
+  
+  <div class="bar-right">
+    
+    <div class="share-component" data-sites="weibo,qq,wechat,facebook,twitter" data-mobile-sites="weibo,qq,qzone"></div>
+    
+  </div>
+  </div>
+</nav>
+  
+<!-- Modal -->
+<div class="modal modal-center modal-small modal-xs-full fade" id="donateModal" tabindex="-1" role="dialog">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content donate">
+      <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+      <div class="modal-body">
+        <div class="donate-box">
+          <div class="donate-head">
+            <p>感谢您的支持，我会继续努力的!</p>
+          </div>
+          <div class="tab-content">
+            <div role="tabpanel" class="tab-pane fade active in" id="alipay">
+              <div class="donate-payimg">
+                <img src="/images/donate/alipayimg.jpg" alt="扫码支持" title="扫一扫" />
+              </div>
+              <p class="text-muted mv">扫码打赏，你说多少就多少</p>
+              <p class="text-grey">打开支付宝扫一扫，即可进行扫码打赏哦</p>
+            </div>
+            <div role="tabpanel" class="tab-pane fade" id="wechatpay">
+              <div class="donate-payimg">
+                <img src="/images/donate/wechatpayimg.jpg" alt="扫码支持" title="扫一扫" />
+              </div>
+              <p class="text-muted mv">扫码打赏，你说多少就多少</p>
+              <p class="text-grey">打开微信扫一扫，即可进行扫码打赏哦</p>
+            </div>
+          </div>
+          <div class="donate-footer">
+            <ul class="nav nav-tabs nav-justified" role="tablist">
+              <li role="presentation" class="active">
+                <a href="#alipay" id="alipay-tab" role="tab" data-toggle="tab" aria-controls="alipay" aria-expanded="true"><i class="icon icon-alipay"></i> 支付宝</a>
+              </li>
+              <li role="presentation" class="">
+                <a href="#wechatpay" role="tab" id="wechatpay-tab" data-toggle="tab" aria-controls="wechatpay" aria-expanded="false"><i class="icon icon-wepay"></i> 微信支付</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+
 </main>
 
   <footer class="footer" itemscope itemtype="http://schema.org/WPFooter">
@@ -437,6 +599,37 @@ window.jQuery || document.write('<script src="js/jquery.min.js"><\/script>')
 
 
 
+
+   
+
+
+
+
+   
+    
+  <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+  <script src="//cdn.jsdelivr.net/npm/valine"></script>
+  <script type="text/javascript">
+  var GUEST = ['nick', 'mail', 'link'];
+  var meta = 'nick,mail,link';
+  meta = meta.split(',').filter(function(item) {
+    return GUEST.indexOf(item) > -1;
+  });
+  new Valine({
+    el: '#vcomments',
+    verify: false,
+    notify: false,
+    appId: 'Puls5TTQK681AJifAz7aQTDa-gzGzoHsz',
+    appKey: 'Q7BadXFx6qn5fVPp2hoX1z9a',
+    placeholder: 'Just go go',
+    avatar: 'mm',
+    meta: meta,
+    pageSize: '10' || 10,
+    visitor: false
+  });
+  </script>
+
+     
 
 
 

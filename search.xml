@@ -4,6 +4,19 @@
   
     
     <entry>
+      <title>升级hexo和nodejs导致hexo命名报错问题</title>
+      <link href="/2022/07/23/hexo/hexo-zhong-node-ban-ben-wen-ti/"/>
+      <url>/2022/07/23/hexo/hexo-zhong-node-ban-ben-wen-ti/</url>
+      
+        <content type="html"><![CDATA[<h3 id="迁移Hexo到Node-js-14-解决部署时报错"><a href="#迁移Hexo到Node-js-14-解决部署时报错" class="headerlink" title="迁移Hexo到Node.js 14 解决部署时报错"></a>迁移Hexo到Node.js 14 解决部署时报错</h3><ul><li><p>概述</p><blockquote><p>升级nodejs之后执行原来的hexo d发布到git上结构报错</p></blockquote></li><li><p>环境</p><blockquote><p>Node.js 14.17.4, Hexo-cli 4.3.0, Hexo 5.4.0</p></blockquote></li><li><p>报错内容</p><figure class="highlight routeros"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">The <span class="string">"mode"</span> argument must be integer. Received an<span class="built_in"> instance </span>of Object</span><br></pre></td></tr></tbody></table></figure></li></ul><figure class="highlight d"><table><tbody><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">WARN  Deprecated config detected: <span class="string">"external_link"</span> <span class="keyword">with</span> a Boolean value <span class="keyword">is</span> <span class="keyword">deprecated</span>. See https:<span class="comment">//hexo.io/docs/configuration for more details.</span></span><br></pre></td></tr></tbody></table></figure><ul><li>解决<blockquote><p>降低node版本到12.17.0（缺点不够优雅，有的项目需要另外的版本）<br>使用nvm管理node不同版本</p></blockquote></li></ul><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>解决GitHub报错You‘re using an RSA key with SHA-1, which is no longer allowed.Please use a newer client</title>
       <link href="/2022/07/23/git/chang-jian-wen-ti/pei-zhi-xiang-guan/sshkey/"/>
       <url>/2022/07/23/git/chang-jian-wen-ti/pei-zhi-xiang-guan/sshkey/</url>

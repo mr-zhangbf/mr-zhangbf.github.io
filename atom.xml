@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://mr-zhangbf.github.io/"/>
-  <updated>2022-07-23T01:07:21.348Z</updated>
+  <updated>2022-07-23T03:21:44.801Z</updated>
   <id>http://mr-zhangbf.github.io/</id>
   
   <author>
@@ -15,6 +15,28 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>升级hexo和nodejs导致hexo命名报错问题</title>
+    <link href="http://mr-zhangbf.github.io/2022/07/23/hexo/hexo-zhong-node-ban-ben-wen-ti/"/>
+    <id>http://mr-zhangbf.github.io/2022/07/23/hexo/hexo-zhong-node-ban-ben-wen-ti/</id>
+    <published>2022-07-23T03:17:00.000Z</published>
+    <updated>2022-07-23T03:21:44.801Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;迁移Hexo到Node-js-14-解决部署时报错&quot;&gt;&lt;a href=&quot;#迁移Hexo到Node-js-14-解决部署时报错&quot; class=&quot;headerlink&quot; title=&quot;迁移Hexo到Node.js 14
+        
+      
+    
+    </summary>
+    
+    
+  </entry>
   
   <entry>
     <title>解决GitHub报错You‘re using an RSA key with SHA-1, which is no longer allowed.Please use a newer client</title>
